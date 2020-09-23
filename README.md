@@ -27,6 +27,10 @@ Repository containing the requirements for the project
 
     npm install react-icons --save
 
+    npm install react-datepicker --save
+
+    npm install date-fns --save
+
     sudo sysctl -w fs.inotify.max_user_watches=100000
 ```
 
