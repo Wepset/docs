@@ -42,22 +42,58 @@ Repository containing the requirements for the project
     GRANT ALL PRIVILEGES ON DATABASE alfa to alfa;
 ```
 
+# Sqlite
+
+```
+    touch database/database.sqlite
+
+    php artisan migrate:fresh --seed
+```
+
 # Run
 
 ```
     cp .env.example .env
+
+    sed -i '/DB_HOST/s/^/# /g' .env
+
+    sed -i '/DB_PORT/s/^/# /g' .env
+
+    sed -i '/DB_DATABASE/s/^/# /g' .env
+
+    sed -i '/DB_USERNAME/s/^/# /g' .env
+
+    sed -i '/DB_PASSWORD/s/^/# /g' .env
+
+    php artisan key:generate
 ```
 
 # API
 
-http://127.0.0.1:8000/api/products
+* `http://127.0.0.1:8000/api/products`
 
-http://127.0.0.1:8000/api/orders
+* `http://127.0.0.1:8000/api/orders`
 
-http://127.0.0.1:8000/api/people
+* `http://127.0.0.1:8000/api/people`
 
 # Functionalities
 
-* ordenar os itens na busca e os itens que foram adicionados
+* [x] Na tela principal, adicionar um filtro (`<input />`) por `CLIENTE`;
 
-* quando informar o cliente já encontra o vender interno e abre o popup do item
+* [x] Na tela principal, adicionar um filtro (`<input />`) por `VENDEDOR`;
+
+* [x] Na tela principal, o filtro por `CLIENTE` e `VENDEDOR` deve abrir um modal, em que seja permitida a navegação com as setas do teclado entre as linhas da tabela, adicionando o mesmo ao pressionar enter;
+
+* [x] Na tela principal, adicionar um (`<button />`), que abrirá um modal para cadastrar um produto no carrinho;
+
+* [x] Na tela principal, abaixo dos filtros, devem ser exibidos os produtos cadastrados no carrinho;
+
+* [x] A listagem dos produtos deve permitir ordenação, ao clicar no nome da coluna em questão;
+
+* [x] Ao abrir a página, o (`<input />`) do `CLIENTE` deve receber o foco;
+
+* [x] Colocar um (`<input />`) de data ao lado da coluna data, na listagem dos produtos adicionados ao carrinho;
+
+* [ ] Quando for informado um `CLIENTE`, se o mesmo tiver um `VENDEDOR INTERNO`, preencher o campo `VENDEDOR` e abrir o modal para cadastro do item;
+
+* [x] No select `VENDA`, na listagem dos produtos, quando mesmo estiver com foco, expandí-lo a fim de permitir escolher o preço. (`SPACE KEY`)
