@@ -114,7 +114,7 @@ Repository containing the requirements for the project
 
 * [x] No select `VENDA`, na listagem dos produtos, quando mesmo estiver com foco, expandí-lo a fim de permitir escolher o preço. (`SPACE KEY`);
 
-* [ ] Adicionar três botões ao lado da lupa do `CLIENTE`, sendo eles: `orçamento`, `pedido` e `composição`;
+* [x] Adicionar três botões ao lado da lupa do `CLIENTE`, sendo eles: `orçamento`, `pedido` e `composição`;
 
 * [ ] Dentro do (`<input />`) do item, repedtir o código do `CLIENTE`, o nome do `CLIENTE` e o nome do `VENDEDOR`;
 
@@ -130,6 +130,6 @@ Repository containing the requirements for the project
 
 * [ ] Na busca pelo cliente, deve ser utilizado um (`<input />`) pro código, em que o mesmo será informado, e outro pro nome do `CLIENTE`, que exibirá o mesmo;
 
-* [ ] Os filtros dentro do mdoal do item são: `Fabricante`, `Tipo`, `Sub descrição`, `Observação (Aplicação)[Tamanho 2x MAIOR]`, `Medida`, `Marca` e `Gtin`;
+* [ ] Os filtros dentro do modal do item são: `Fabricante`, `Tipo`, `Sub descrição`, `Observação (Aplicação)[Tamanho 2x MAIOR]`, `Medida`, `Marca` e `Gtin`;
 
 * [ ] Colocar o (`<input />`) da `quantidade` e do `preço` dentro do modal do item, já cadastrando os mesmos no momento da inserção do item no pedido;
