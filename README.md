@@ -118,13 +118,13 @@ Repository containing the requirements for the project
 
 * [ ] Dentro do (`<input />`) do item, repedtir o código do `CLIENTE`, o nome do `CLIENTE` e o nome do `VENDEDOR`;
 
-* [ ] Ao lado do (`<input />`) do `VENDEDOR` do `VENDEDOR`, colocar um botão chamado `nome`;
+* [ ] Ao lado do (`<input />`) do `VENDEDOR` do `VENDEDOR`, colocar um botão chamado `NOME`;
 
 * [ ] Dentro do modal do item, colocar as labels em cima dos (`<input />`) e não no placeholder;
 
 * [ ] Na listagem do select do preço, colocar o preço de promoção no lugar de `--OUTROS--`;
 
-* [ ] Não colocar overflow-x dentro do modal de busca do item, para isso o mesmo deve ser o maior possível;
+* [x] Não colocar `overflow-x` dentro do modal de busca do item, para isso o mesmo deve ser o maior possível;
 
 * [ ] A altura da linha, na listagem dos itens dentro do modal, deve ser a menor possível, de forma que seja visualizada a maior quantidade de itens possíveis;
 
