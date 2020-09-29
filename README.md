@@ -116,17 +116,17 @@ Repository containing the requirements for the project
 
 * [x] Adicionar três botões ao lado da lupa do `CLIENTE`, sendo eles: `orçamento`, `pedido` e `composição`;
 
-* [ ] Dentro do (`<input />`) do item, repedtir o código do `CLIENTE`, o nome do `CLIENTE` e o nome do `VENDEDOR`;
-
-* [ ] Ao lado do (`<input />`) do `VENDEDOR` do `VENDEDOR`, colocar um botão chamado `NOME`;
-
-* [ ] Dentro do modal do item, colocar as labels em cima dos (`<input />`) e não no placeholder;
-
-* [ ] Na listagem do select do preço, colocar o preço de promoção no lugar de `--OUTROS--`;
+* [x] Na listagem do select do preço, colocar o preço de promoção no lugar de `--OUTROS--`;
 
 * [x] Não colocar `overflow-x` dentro do modal de busca do item, para isso o mesmo deve ser o maior possível;
 
-* [ ] A altura da linha, na listagem dos itens dentro do modal, deve ser a menor possível, de forma que seja visualizada a maior quantidade de itens possíveis;
+* [x] A altura da linha, na listagem dos itens dentro do modal, deve ser a menor possível, de forma que seja visualizada a maior quantidade de itens possíveis;
+
+* [x] Dentro do modal do item, colocar as labels em cima dos (`<input />`) e não no placeholder;
+
+* [x] Dentro do (`<input />`) do item, repetir o código do `CLIENTE`, o nome do `CLIENTE` e o nome do `VENDEDOR`;
+
+* [ ] Ao lado do (`<input />`) do `VENDEDOR` do `VENDEDOR`, colocar um botão chamado `NOME`, sendo este o nome do pedido;
 
 * [ ] Na busca pelo cliente, deve ser utilizado um (`<input />`) pro código, em que o mesmo será informado, e outro pro nome do `CLIENTE`, que exibirá o mesmo;
 
