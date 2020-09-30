@@ -126,10 +126,10 @@ Repository containing the requirements for the project
 
 * [x] Dentro do (`<input />`) do item, repetir o código do `CLIENTE`, o nome do `CLIENTE` e o nome do `VENDEDOR`;
 
-* [ ] Ao lado do (`<input />`) do `VENDEDOR` do `VENDEDOR`, colocar um botão chamado `NOME`, sendo este o nome do pedido;
+* [x] Ao lado do (`<input />`) do `VENDEDOR` do `VENDEDOR`, colocar um botão chamado `NOME`, sendo este o nome do pedido;
 
-* [ ] Na busca pelo cliente, deve ser utilizado um (`<input />`) pro código, em que o mesmo será informado, e outro pro nome do `CLIENTE`, que exibirá o mesmo;
+* [x] Na busca pelo cliente, deve ser utilizado um (`<input />`) pro código, em que o mesmo será informado, e outro pro nome do `CLIENTE`, que exibirá o mesmo;
 
 * [ ] Os filtros dentro do modal do item são: `Fabricante`, `Tipo`, `Sub descrição`, `Observação (Aplicação)[Tamanho 2x MAIOR]`, `Medida`, `Marca` e `Gtin`;
 
-* [ ] Colocar o (`<input />`) da `quantidade` e do `preço` dentro do modal do item, já cadastrando os mesmos no momento da inserção do item no pedido;
+* [x] Colocar o (`<input />`) da `quantidade` e do `preço` dentro do modal do item, já cadastrando os mesmos no momento da inserção do item no pedido;
