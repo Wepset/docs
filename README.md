@@ -2,7 +2,7 @@
 
 Repository containing the requirements for the project
 
-# Server
+## Server
 
 ```
     composer create-project --prefer-dist laravel/laravel server
@@ -14,7 +14,7 @@ Repository containing the requirements for the project
     php artisan make:model Consumer -mcr
 ```
 
-# View
+## View
 
 ```
     npx create-react-app view
@@ -52,7 +52,7 @@ Repository containing the requirements for the project
     npm run build
 ```
 
-# Database
+## Database
 
 ```
     psql --user postgres --host 127.0.0.1
@@ -64,7 +64,7 @@ Repository containing the requirements for the project
     GRANT ALL PRIVILEGES ON DATABASE alfa to alfa;
 ```
 
-# Sqlite
+## Sqlite
 
 ```
     touch database/database.sqlite
@@ -72,7 +72,7 @@ Repository containing the requirements for the project
     php artisan migrate:fresh --seed
 ```
 
-# Run
+## Run
 
 ```
     cp .env.example .env
@@ -90,15 +90,23 @@ Repository containing the requirements for the project
     php artisan key:generate
 ```
 
-# API
+## Link
 
-* `http://127.0.0.1:8000/api/products`
+```
+    http://projeto02-venda.dadus.com.br
+```
 
-* `http://127.0.0.1:8000/api/orders`
+## API
 
-* `http://127.0.0.1:8000/api/people`
+```
+    http://projeto02-venda.dadus.com.br/api/products
 
-# Functionalities
+    http://projeto02-venda.dadus.com.br/api/orders
+
+    http://projeto02-venda.dadus.com.br/api/people
+```
+
+## Functionalities
 
 * [x] Na tela principal, adicionar um filtro (`<input />`) por `CLIENTE`;
 
