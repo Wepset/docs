@@ -46,6 +46,12 @@ Repository containing the requirements for the project
     npm start
 ```
 
+## Build
+
+```
+    npm run build
+```
+
 # Database
 
 ```
