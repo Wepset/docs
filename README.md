@@ -130,6 +130,6 @@ Repository containing the requirements for the project
 
 * [x] Na busca pelo cliente, deve ser utilizado um (`<input />`) pro código, em que o mesmo será informado, e outro pro nome do `CLIENTE`, que exibirá o mesmo;
 
-* [ ] Os filtros dentro do modal do item são: `Fabricante`, `Tipo`, `Sub descrição`, `Observação (Aplicação)[Tamanho 2x MAIOR]`, `Medida`, `Marca` e `Gtin`;
+* [x] Os filtros dentro do modal do item são: `Fabricante`, `Tipo`, `Sub descrição`, `Observação (Aplicação)[Tamanho 2x MAIOR]`, `Medida`, `Marca` e `Gtin`;
 
 * [x] Colocar o (`<input />`) da `quantidade` e do `preço` dentro do modal do item, já cadastrando os mesmos no momento da inserção do item no pedido;
