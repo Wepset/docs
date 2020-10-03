@@ -96,6 +96,10 @@ Repository containing the requirements for the project
     http://projeto02-venda.dadus.com.br
 ```
 
+## ERD
+
+<p align="center"><img src="ERD/ERD.png" /></p>
+
 ## API
 
 ```
