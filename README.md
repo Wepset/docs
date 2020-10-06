@@ -48,9 +48,21 @@ Repository containing the requirements for the project
 
 ## Build
 
+Inside `web.php` file, use this single line, consequently we redirect all requests to same file (`app.blade.php`)
+
+```
+    Route::get('/{any}', function() {
+        return view('app');
+    })->where('any', '^(?!api).*$');
+```
+
 ```
     npm run build
 ```
+
+Copy `build/index.html` to `resources/views/app.blade.php`
+
+Copy `build/static` to `public/static`
 
 ## Database
 
